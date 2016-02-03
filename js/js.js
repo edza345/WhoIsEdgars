@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	//// coment
 	function getDetails(id){
 		$.ajax({
 			url: "ajax/ajax_backend.php?type=5&id="+id,
